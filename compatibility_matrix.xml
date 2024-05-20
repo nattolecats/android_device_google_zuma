@@ -78,6 +78,14 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+       <name>android.frameworks.cameraservice.service</name>
+       <version>2.2</version>
+       <interface>
+           <name>ICameraService</name>
+           <instance>default</instance>
+       </interface>
+    </hal>
     <vndk>
         <version>0.0.0</version>
     </vndk>
