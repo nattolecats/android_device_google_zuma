@@ -35,6 +35,14 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.gnss</name>
+        <version>3</version>
+        <interface>
+            <name>IGnss</name>
+            <instance>vendor</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="true">
         <name>android.vendor.samsung_slsi.telephony.hardware.radio</name>
         <version>1.1</version>
