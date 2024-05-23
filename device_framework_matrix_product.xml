@@ -3,14 +3,6 @@
       <name>android.hardware.boot</name>
       <fqname>IBootControl/default</fqname>
     </hal>
-    <hal format="aidl">
-        <name>android.hardware.graphics.composer3</name>
-        <version>2</version>
-        <interface>
-            <name>IComposer</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.radio</name>
         <version>1.2</version>
