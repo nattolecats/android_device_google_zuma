@@ -837,9 +837,9 @@ PRODUCT_PACKAGES += \
  	trusty_metricsd
 
 $(call soong_config_set,google_displaycolor,displaycolor_platform,zuma)
-#PRODUCT_PACKAGES += \
-#	android.hardware.composer.hwc3-service.pixel \
-#	libdisplaycolor
+PRODUCT_PACKAGES += \
+	android.hardware.composer.hwc3-service.pixel \
+	libdisplaycolor
 
 # Storage: for factory reset protection feature
 PRODUCT_PROPERTY_OVERRIDES += \
